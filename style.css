@@ -147,3 +147,31 @@ body{
     padding:40px;
     border-radius:20px;
 }
+
+.account-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.account-card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:320px;
+    text-align:center;
+}
+
+.account-card input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+}
+
+.account-card button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    cursor:pointer;
+}
